@@ -165,7 +165,7 @@ flashdance= Movie.create(
   overview: flashdance_json["overview"],
   release_date: flashdance_json["release_date"]
 )
-response = RestClient.get "https://api.themoviedb.org/3/movie/695?api_key=8665b988c5359f789916c16c4fcaf425&language=en-US"
+response = RestClient.get "https://api.themoviedb.org/3/movie/694?api_key=8665b988c5359f789916c16c4fcaf425&language=en-US"
 shining_json = JSON.parse response
 
 shining= Movie.create(
@@ -175,8 +175,6 @@ shining= Movie.create(
   overview: shining_json["overview"],
   release_date: shining_json["release_date"]
 )
-
-
 
 
 
