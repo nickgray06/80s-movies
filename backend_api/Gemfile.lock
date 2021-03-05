@@ -103,8 +103,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.11.1-x86_64-linux)
-      racc (~> 1.4)
     puma (5.2.2)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -156,7 +154,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
+   
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -172,7 +170,6 @@ PLATFORMS
   ruby
   x86_64-darwin-19
   x86_64-darwin-20
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
