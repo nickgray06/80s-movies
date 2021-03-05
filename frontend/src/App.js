@@ -26,6 +26,11 @@ class App extends Component {
   render(){
     return (
       <div className="App">
+        <div className="div-title">
+        <img src="https://media.giphy.com/media/y97hzmaDLeO4w/giphy.gif"/>
+        <h1 className="title">80's Movies and Beyond</h1>
+        <img src="https://media.giphy.com/media/y97hzmaDLeO4w/giphy.gif"/>
+        </div>
         {!this.state.isSuggestion
           ? <MovieSection films={this.state.films} handleClick={this.handleClick}/>
           : <SuggestionSection handleClick={this.handleClick} clickedMovie={this.state.clickedMovie}/>
